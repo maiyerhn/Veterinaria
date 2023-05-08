@@ -8,12 +8,12 @@ main{
 header {
     border : 2px solid #00ff00 ;
     height: 100px;
-
+    text-align: center;
 }
 nav {
     border: 2px solid #00ffff;
     height: 80px;
-
+    margin: 5px  0px  5px 0px;
 }
 section {
     border: 2px solid #0000ff;
@@ -34,4 +34,17 @@ article {
     height: 110px;
     width: 770px ;
     float: right;
+}
+ul li {
+    display: inline-block;
+    border: 2px solid #f0f;
+    width: 100px;
+    margin-right: 10px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+}
+header img {
+    
+    height: 90px;
+    width: 110px;
 }
